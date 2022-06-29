@@ -1,0 +1,207 @@
+body {
+    margin: 0px;
+    font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+
+/*
+@font-face {
+    font-family: 'Font Name';
+    src: url('chirp-extended-heavy-web.woff') format('Woff');
+}
+*/
+
+h1 {
+    font-size: 64px;
+    margin-top: 60px;
+}
+
+h1,
+h2 {
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 31px;
+    line-height: 90px;
+    display: inline-block;
+    word-break: break-word;
+}
+
+.var {
+    font-size: 17px;
+    margin-bottom: 0;
+    font-weight: bold;
+    margin-top: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    ;
+}
+
+h4 {
+    font-size: 13px;
+    line-height: 20px;
+    color: rgb(58, 57, 57);
+    position: absolute;
+}
+
+#container {
+    margin: 0px;
+    padding: 0px;
+}
+
+#ass {
+    display: flex;
+}
+
+#photo {
+    position: relative;
+}
+
+.image1 {
+    width: 557px;
+    height: 817px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#twitter {
+    font-size: 360px;
+    position: absolute;
+    top: 229px;
+    left: 103px;
+    color: white;
+}
+
+#apple {
+    font-size: 20px;
+    color: black;
+}
+
+#righttop {
+    width: 555px;
+    height: 795px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 0px;
+    padding: 17px 17px 0px;
+    line-height: 70px;
+}
+
+#cizgi {
+    display: flex;
+    flex-direction: row;
+}
+
+.dat {
+    width: 132px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.man {
+    font-size: 14px;
+    line-height: 0px;
+    margin: 12px 4px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button,
+.button3,
+.button2 {
+    background-color: white;
+    border-radius: 20px;
+    font-size: 14px;
+    height: 40px;
+    padding: 0px 60px;
+    display: block;
+    letter-spacing: 0.25px;
+    overflow: hidden;
+    cursor: pointer;
+    width: 300px;
+    font-family: "Google Sans", arial, sans-serif;
+}
+
+.button {
+    border: 1px solid #dadce0;
+    color: #3c4043;
+    text-align: center;
+    margin: 6px;
+}
+
+.button:hover {
+    border: 1px solid #dadce0;
+    color: #3c4043;
+    text-align: center;
+    margin: 6px;
+    background-color: rgb(245, 245, 252);
+}
+
+.button2 {
+    background-color: rgb(29, 155, 240);
+    border: 0px;
+    color: white;
+    text-align: left;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.button2:hover {
+    background-color: rgb(23, 138, 214);
+}
+
+.button3 {
+    color: rgb(29, 155, 240);
+    text-align: center;
+    border: 1px solid #dadce0;
+}
+
+.button3:hover {
+    color: rgb(29, 155, 240);
+    text-align: center;
+    border: 1px solid #dadce0;
+    background-color: rgb(245, 245, 252);
+}
+
+.bilgilendirme {
+    font-size: 11px;
+    font-weight: 400px;
+    line-height: 12px;
+    color: rgb(83, 100, 113);
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    width: 300px;
+    margin-top: 5px;
+}
+
+.bilgilendirme a {
+    color: rgb(29, 155, 240);
+    margin-top: 0px;
+}
+
+#footer {
+    width: 1330px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1px 5px 4px;
+    font-size: 15px;
+    letter-spacing: -1px;
+    line-height: 16px;
+    word-spacing: 0px;
+}
+
+.linke {
+    padding-right: 12px;
+    padding-left: 12px;
+    color: rgb(83, 100, 113);
+    font-size: 13px;
+}
