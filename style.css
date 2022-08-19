@@ -1,9 +1,9 @@
 body {
-    margin: 0px;
-    position: relative;
-    font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0px;
+  position: relative;
+  font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
-
 
 /*
 @font-face {
@@ -13,354 +13,360 @@ body {
 */
 
 h1 {
-    font-size: 64px;
-    margin-top: 60px;
+  font-size: 64px;
+  margin-top: 60px;
 }
 
 h1,
 h2 {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 h2 {
-    font-size: 31px;
-    line-height: 90px;
-    display: inline-block;
-    word-break: break-word;
+  font-size: 31px;
+  line-height: 90px;
+  display: inline-block;
+  word-break: break-word;
 }
 
 .var {
-    font-size: 17px;
-    margin-bottom: 0;
-    font-weight: bold;
-    margin-top: 40px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    ;
+  font-size: 17px;
+  margin-bottom: 0;
+  font-weight: bold;
+  margin-top: 40px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
 }
 
 h4 {
-    font-size: 13px;
-    line-height: 20px;
-    color: rgb(58, 57, 57);
-    position: absolute;
+  font-size: 13px;
+  line-height: 20px;
+  color: rgb(58, 57, 57);
+  position: absolute;
 }
 
 #container {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 #ass {
-    display: flex;
+  display: flex;
 }
 
 #photo {
-    position: relative;
+  position: relative;
 }
 
 .image1 {
-    width: 557px;
-    height: 817px;
-    position: relative;
-    top: 0px;
-    left: 0px;
+  width: 557px;
+  height: 817px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  object-fit: cover;
 }
 
 #twitter {
-    font-size: 360px;
-    position: absolute;
-    top: 229px;
-    left: 103px;
-    color: white;
+  font-size: 360px;
+  position: absolute;
+  top: 229px;
+  left: 103px;
+  color: white;
 }
 
 #apple {
-    font-size: 21px;
-    color: black;
-    margin-right: 7px;
+  font-size: 21px;
+  color: black;
+  margin-right: 7px;
 }
 
 #google {
-    margin-right: 6px;
+  margin-right: 6px;
 }
 
 #righttop {
-    width: 555px;
-    height: 795px;
-    display: flex;
-    flex-direction: column;
-    margin: 20px 20px 0px;
-    padding: 17px 17px 0px;
-    line-height: 70px;
+  width: 555px;
+  height: 795px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 20px 0px;
+  padding: 17px 17px 0px;
+  line-height: 70px;
 }
 
 #cizgi {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .dat {
-    width: 132px;
-    margin-top: 12px;
-    margin-bottom: 12px;
+  width: 132px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border-top: 1px solid rgb(241, 239, 239);
 }
 
 .man {
-    font-size: 14px;
-    line-height: 0px;
-    margin: 12px 4px;
+  font-size: 14px;
+  line-height: 0px;
+  margin: 12px 4px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .button,
 .button3,
 .button2 {
-    background-color: white;
-    border-radius: 20px;
-    font-size: 14px;
-    height: 40px;
-    padding: 0px 60px;
-    letter-spacing: 0.25px;
-    overflow: hidden;
-    cursor: pointer;
-    width: 300px;
-    font-family: "Google Sans", arial, sans-serif;
-    display: block;
+  background-color: white;
+  border-radius: 20px;
+  font-size: 14px;
+  height: 40px;
+  padding: 0px 60px;
+  letter-spacing: 0.25px;
+  overflow: hidden;
+  cursor: pointer;
+  width: 300px;
+  font-family: "Google Sans", arial, sans-serif;
+  display: block;
 }
 
 .button {
-    border: 1px solid #dadce0;
-    color: #3c4043;
-    text-align: center;
-    margin: 6px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
+  border: 1px solid #dadce0;
+  color: #3c4043;
+  text-align: center;
+  margin: 6px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .button:hover {
-    border: 1px solid #dadce0;
-    color: #3c4043;
-    text-align: center;
-    margin: 6px;
-    background-color: rgb(245, 245, 252);
+  border: 1px solid #dadce0;
+  color: #3c4043;
+  text-align: center;
+  margin: 6px;
+  background-color: rgb(245, 245, 252);
 }
 
 .button2 {
-    background-color: rgb(29, 155, 240);
-    border: 0px;
-    color: white;
-    text-align: left;
-    margin-top: 6px;
-    margin-bottom: 0px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    padding-left: 16px;
-    padding-right: 16px;
+  background-color: rgb(29, 155, 240);
+  border: 0px;
+  color: white;
+  text-align: left;
+  margin-top: 6px;
+  margin-bottom: 0px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .button2:hover {
-    background-color: rgb(23, 138, 214);
+  background-color: rgb(23, 138, 214);
 }
 
 .modal {
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    height: 100%;
-    background-color: rgb(0, 0, 0, 0.4);
-    display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.4);
+  display: none;
 }
 
 .modalcontent {
-    background-color: white;
-    border: 0 solid black;
-    border-radius: 15px;
-    margin: 2% auto;
-    padding-top: 5px;
-    height: 550px;
-    width: 580px;
-    overflow: auto;
-    line-height: 20px;
-    flex-direction: column;
-    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: white;
+  border: 0 solid black;
+  border-radius: 15px;
+  margin: 2% auto;
+  padding-top: 5px;
+  height: 550px;
+  width: 580px;
+  overflow: auto;
+  line-height: 20px;
+  flex-direction: column;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
 }
 
 .header {
-    display: flex;
-    margin: 0px;
-    margin-left: 5px;
+  display: flex;
+  margin: 0px;
+  margin-left: 5px;
 }
 
 h5 {
-    margin: 0px;
-    font-size: 20px;
-    padding-left: 23px;
-    padding-top: 10px;
+  margin: 0px;
+  font-size: 20px;
+  padding-left: 23px;
+  padding-top: 10px;
 }
 
 .closebutton {
-    color: rgb(15, 20, 25);
-    border: 0px;
-    font-size: 30px;
-    border-radius: 100%;
-    width: 40px;
-    height: 40px;
-    padding: 4px;
-    margin: 3px;
-    right: left;
-    text-align: center;
-    background-color: white;
-    padding-left: 5px;
+  color: rgb(15, 20, 25);
+  border: 0px;
+  font-size: 30px;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  padding: 4px;
+  margin: 3px;
+  right: left;
+  text-align: center;
+  background-color: white;
+  padding-left: 5px;
 }
 
 .closebutton:hover,
 .closebutton:focus {
-    text-decoration: none;
-    cursor: pointer;
-    background-color: rgba(207, 204, 204, 0.685)
+  text-decoration: none;
+  cursor: pointer;
+  background-color: rgba(207, 204, 204, 0.685);
 }
 
 .account {
-    padding-left: 80px;
-    padding-right: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .account1 {
-    font-family: inherit;
-    font-weight: 650;
-    line-height: 80px;
-    font-size: 32px;
+  font-family: inherit;
+  font-weight: 650;
+  line-height: 80px;
+  font-size: 32px;
 }
 
 input {
-    min-width: 100%;
-    padding-top: 21px;
-    padding-bottom: 16px;
-    border: 1px solid rgba(207, 207, 207, 0.863);
-    border-radius: 5px;
-    margin-bottom: 5px;
+  min-width: 100%;
+  padding-top: 21px;
+  padding-bottom: 16px;
+  border: 1px solid rgba(207, 207, 207, 0.863);
+  border-radius: 5px;
+  margin-bottom: 5px;
 }
 
 input:focus {
-    outline: none;
-    border: 2px solid #1d9bf0;
+  outline: none;
+  border: 2px solid #1d9bf0;
 }
 
 .eposta {
-    color: #1d9bf0;
-    margin-top: 10px;
-    text-align: right;
-    font: 15px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #1d9bf0;
+  margin-top: 10px;
+  text-align: right;
+  font: 15px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
 }
 
 .date {
-    font-family: inherit;
-    font-size: 15px;
-    font-weight: 550;
-    color: black;
-    margin-bottom: 10px;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 550;
+  color: black;
+  margin-bottom: 10px;
 }
 
 .text {
-    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #343536;
-    font-weight: 400;
-    word-spacing: -1px;
-    line-height: 15px;
-    margin-top: 0px;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #343536;
+  font-weight: 400;
+  word-spacing: -1px;
+  line-height: 15px;
+  margin-top: 0px;
 }
 
 .birth {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .day {
-    flex-grow: 2;
+  flex-grow: 2;
 }
 
 .forwardbuton {
-    box-shadow: rgb(101 119 134 / 20%) 0px 0px 7px, rgb(101 119 134 / 15%) 0px 1px 3px 1px;
-    padding: 20px 80px;
-    min-width: max-content;
+  box-shadow: rgb(101 119 134 / 20%) 0px 0px 7px,
+    rgb(101 119 134 / 15%) 0px 1px 3px 1px;
+  padding: 20px 80px;
+  min-width: max-content;
 }
 
-.endbuton1{
-    margin-top: 10px;
-    margin-bottom: 8px;
+.endbuton1 {
+  margin-top: 10px;
+  margin-bottom: 8px;
 }
 
 .endbuton {
-    background-color: #858b8b;
-    border: none;
-    border-radius: 25px;
-    height: 50px;
-    min-width: 100%;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    color: white;
-    font-size: 17px;
-    font-family: inherit;
-    font-weight: 700;
-    
+  background-color: #858b8b;
+  border: none;
+  border-radius: 25px;
+  height: 50px;
+  min-width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 17px;
+  font-family: inherit;
+  font-weight: 700;
 }
 
 .button3 {
-    color: rgb(29, 155, 240);
-    text-align: center;
-    border: 1px solid #dadce0;
-    justify-content: center;
-    display: flex;
-    align-items: center;
+  color: rgb(29, 155, 240);
+  text-align: center;
+  border: 1px solid #dadce0;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .button3:hover {
-    color: rgb(29, 155, 240);
-    text-align: center;
-    border: 1px solid #dadce0;
-    background-color: rgb(245, 245, 252);
+  color: rgb(29, 155, 240);
+  text-align: center;
+  border: 1px solid #dadce0;
+  background-color: rgb(245, 245, 252);
 }
 
 .bilgilendirme {
-    font-size: 11px;
-    font-weight: 400px;
-    line-height: 12px;
-    color: rgb(83, 100, 113);
-    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    width: 300px;
-    margin-top: 5px;
+  font-size: 11px;
+  font-weight: 400px;
+  line-height: 12px;
+  color: rgb(83, 100, 113);
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  width: 300px;
+  margin-top: 5px;
 }
 
 .bilgilendirme a {
-    color: rgb(29, 155, 240);
-    margin-top: 0px;
+  color: rgb(29, 155, 240);
+  margin-top: 0px;
 }
 
 #footer {
-    width: 1330px;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 1px 5px 4px;
-    font-size: 15px;
-    letter-spacing: -1px;
-    line-height: 16px;
-    word-spacing: 0px;
+  width: 1330px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 1px 5px 4px;
+  font-size: 15px;
+  letter-spacing: -1px;
+  line-height: 16px;
+  word-spacing: 0px;
 }
 
 .linke {
-    padding-right: 12px;
-    padding-left: 12px;
-    color: rgb(83, 100, 113);
-    font-size: 13px;
+  padding-right: 12px;
+  padding-left: 12px;
+  color: rgb(83, 100, 113);
+  font-size: 13px;
 }
